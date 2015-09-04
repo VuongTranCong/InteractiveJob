@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1890BD622A49AB57F7CDDBDD /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35BE8831C3144286F5A692D /* Statement.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21681E25DF30C9239702A20B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792B918F13A4F5C38A40256 /* Database.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B3BE790EE8AE20127C1F758 /* Pods-VNWorkExtractor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 920F0BBD8FB6E68244A2DA6F /* Pods-VNWorkExtractor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33562A433936105C672D5584 /* Pods-VNWorkExtractor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCA7D7B2DB80E1A71F9AD5 /* Pods-VNWorkExtractor-dummy.m */; };
+		3778443143BDDC2FA032C088 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C291152B06A07304EDEEB6 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4289B4CF688E5C9CD55FDA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FF5029C84B2F0E9A82DE8 /* Foundation.framework */; };
+		4B19DC4EEB849088A90DEBE4 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBF55A13F70C019249598B /* RTree.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5153856DAF4D37B47C33FA93 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B109753DD945439A84E70 /* Schema.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		783FA2F4D9FA6ED05A5CD8B7 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA5BCABC6F9EAE90A47561F /* Expression.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7C4E2361214EE9EAE2FC2556 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801F40BEDB44F9EA86E673F /* Functions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8243B7119DFE971D588F98BC /* Pods-VNWorkExtractor-SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC06BA8830EEA24AA8138CC4 /* Pods-VNWorkExtractor-SQLite.swift-dummy.m */; };
+		90BC8F0C86395E64BA381104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FF5029C84B2F0E9A82DE8 /* Foundation.framework */; };
+		91AE85BF66A3A7533D952EB1 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2D17C34FC0EB1C11FE71B4 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93CC3094A710BB0FE6471B58 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 555008638FF9D99D1F79C794 /* SQLite-Bridging.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B75242D9B6B28C5B48397B7A /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B273F43BE7244151450361 /* Value.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC83580AF7BF8650E946528B /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 289354224421B0FE3AA16F68 /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33485AF9073369D48278FEB /* FTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831797AC8047FBB5DD266998 /* FTS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E46ECF819509C1D0EB6D08CA /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = A665BD0D530946B35D8F969F /* Query.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6F1A38B01283A584DBE50A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9039FD765D3A1C20BB514BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128AD1F5EDB7CC0105A409DC;
+			remoteInfo = "Pods-VNWorkExtractor-SQLite.swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C291152B06A07304EDEEB6 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = SQLite/fts3_tokenizer.h; sourceTree = "<group>"; };
+		0DDCA7D7B2DB80E1A71F9AD5 /* Pods-VNWorkExtractor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VNWorkExtractor-dummy.m"; sourceTree = "<group>"; };
+		138FF5029C84B2F0E9A82DE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		179D1CC58B0E7E3E129322CA /* Pods-VNWorkExtractor-SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VNWorkExtractor-SQLite.swift.modulemap"; sourceTree = "<group>"; };
+		289354224421B0FE3AA16F68 /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "SQLite/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		33F21DE3BD8EBE3FAC32EA55 /* Pods-VNWorkExtractor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VNWorkExtractor-frameworks.sh"; sourceTree = "<group>"; };
+		365FA8B2019E4E61F2E8DAD4 /* Pods-VNWorkExtractor-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VNWorkExtractor-environment.h"; sourceTree = "<group>"; };
+		3CA5BCABC6F9EAE90A47561F /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = SQLite/Expression.swift; sourceTree = "<group>"; };
+		3F613E448C3524619303DAA4 /* Pods-VNWorkExtractor-SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNWorkExtractor-SQLite.swift.xcconfig"; sourceTree = "<group>"; };
+		4A1B109753DD945439A84E70 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = SQLite/Schema.swift; sourceTree = "<group>"; };
+		4A2DC83E5B353557DBA7F305 /* Pods-VNWorkExtractor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VNWorkExtractor-acknowledgements.plist"; sourceTree = "<group>"; };
+		51138FA49BDF89630338DC0D /* Pods-VNWorkExtractor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VNWorkExtractor.modulemap"; sourceTree = "<group>"; };
+		555008638FF9D99D1F79C794 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "SQLite/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		66BBF55A13F70C019249598B /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = SQLite/RTree.swift; sourceTree = "<group>"; };
+		6A11F95E9BD9DD669DF96517 /* Pods-VNWorkExtractor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNWorkExtractor.release.xcconfig"; sourceTree = "<group>"; };
+		6D2D17C34FC0EB1C11FE71B4 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = SQLite/SQLite.h; sourceTree = "<group>"; };
+		7CB949B41794926E652C959C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831797AC8047FBB5DD266998 /* FTS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS.swift; path = SQLite/FTS.swift; sourceTree = "<group>"; };
+		920F0BBD8FB6E68244A2DA6F /* Pods-VNWorkExtractor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VNWorkExtractor-umbrella.h"; sourceTree = "<group>"; };
+		94B273F43BE7244151450361 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = SQLite/Value.swift; sourceTree = "<group>"; };
+		A08D212A9970A71498898476 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A665BD0D530946B35D8F969F /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = SQLite/Query.swift; sourceTree = "<group>"; };
+		AC06BA8830EEA24AA8138CC4 /* Pods-VNWorkExtractor-SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VNWorkExtractor-SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		B792B918F13A4F5C38A40256 /* Database.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Database.swift; path = SQLite/Database.swift; sourceTree = "<group>"; };
+		BA7D2AE199E41BC080652EA7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C11F110D4CF56DC5F1F01922 /* Pods-VNWorkExtractor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNWorkExtractor.debug.xcconfig"; sourceTree = "<group>"; };
+		C2488B9210BBD4A42497BE1A /* Pods-VNWorkExtractor-SQLite.swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNWorkExtractor-SQLite.swift-Private.xcconfig"; sourceTree = "<group>"; };
+		C35BE8831C3144286F5A692D /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = SQLite/Statement.swift; sourceTree = "<group>"; };
+		C8BAAEAC54BEA2F65BA6C234 /* Pods-VNWorkExtractor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VNWorkExtractor-resources.sh"; sourceTree = "<group>"; };
+		D3DA28A347F3E180C6AC6D1B /* Pods_VNWorkExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VNWorkExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD3DC6760B8626F9F12B05D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E801F40BEDB44F9EA86E673F /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = SQLite/Functions.swift; sourceTree = "<group>"; };
+		ED9E0E0902C50FA7120BA91D /* Pods-VNWorkExtractor-SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VNWorkExtractor-SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		FF5FD6A92168D38685ACEFC4 /* Pods-VNWorkExtractor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VNWorkExtractor-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D3558ED85B6547574685F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BC8F0C86395E64BA381104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C495AD71D4D9BCF3ACC81975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4289B4CF688E5C9CD55FDA07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A0CF77F6221EB3DA3E548D = {
+			isa = PBXGroup;
+			children = (
+				BA7D2AE199E41BC080652EA7 /* Podfile */,
+				25AFEA5DBB81AAEB3446B4A0 /* Frameworks */,
+				45ED987821CDD654CFB0423A /* Pods */,
+				648398021AFCC3F08463E340 /* Products */,
+				1F96F6517D72E97FE4CB5C02 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1F96F6517D72E97FE4CB5C02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59D14EE3CB200CFB8C6052F /* Pods-VNWorkExtractor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		25AFEA5DBB81AAEB3446B4A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF452FB858C6B78789E16AD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FF452FB858C6B78789E16AD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				138FF5029C84B2F0E9A82DE8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45ED987821CDD654CFB0423A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFBCF17983557FD38EE0896D /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		648398021AFCC3F08463E340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA28A347F3E180C6AC6D1B /* Pods_VNWorkExtractor.framework */,
+				A08D212A9970A71498898476 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CD3990F23D5BDEB8656324 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B792B918F13A4F5C38A40256 /* Database.swift */,
+				3CA5BCABC6F9EAE90A47561F /* Expression.swift */,
+				831797AC8047FBB5DD266998 /* FTS.swift */,
+				E801F40BEDB44F9EA86E673F /* Functions.swift */,
+				A665BD0D530946B35D8F969F /* Query.swift */,
+				66BBF55A13F70C019249598B /* RTree.swift */,
+				6D2D17C34FC0EB1C11FE71B4 /* SQLite.h */,
+				289354224421B0FE3AA16F68 /* SQLite-Bridging.h */,
+				555008638FF9D99D1F79C794 /* SQLite-Bridging.m */,
+				4A1B109753DD945439A84E70 /* Schema.swift */,
+				C35BE8831C3144286F5A692D /* Statement.swift */,
+				94B273F43BE7244151450361 /* Value.swift */,
+				05C291152B06A07304EDEEB6 /* fts3_tokenizer.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EFBCF17983557FD38EE0896D /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD3990F23D5BDEB8656324 /* Core */,
+				FC718E7FC02DE539F4F050F3 /* Support Files */,
+			);
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		F59D14EE3CB200CFB8C6052F /* Pods-VNWorkExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				DBD3DC6760B8626F9F12B05D /* Info.plist */,
+				51138FA49BDF89630338DC0D /* Pods-VNWorkExtractor.modulemap */,
+				FF5FD6A92168D38685ACEFC4 /* Pods-VNWorkExtractor-acknowledgements.markdown */,
+				4A2DC83E5B353557DBA7F305 /* Pods-VNWorkExtractor-acknowledgements.plist */,
+				0DDCA7D7B2DB80E1A71F9AD5 /* Pods-VNWorkExtractor-dummy.m */,
+				365FA8B2019E4E61F2E8DAD4 /* Pods-VNWorkExtractor-environment.h */,
+				33F21DE3BD8EBE3FAC32EA55 /* Pods-VNWorkExtractor-frameworks.sh */,
+				C8BAAEAC54BEA2F65BA6C234 /* Pods-VNWorkExtractor-resources.sh */,
+				920F0BBD8FB6E68244A2DA6F /* Pods-VNWorkExtractor-umbrella.h */,
+				C11F110D4CF56DC5F1F01922 /* Pods-VNWorkExtractor.debug.xcconfig */,
+				6A11F95E9BD9DD669DF96517 /* Pods-VNWorkExtractor.release.xcconfig */,
+			);
+			name = "Pods-VNWorkExtractor";
+			path = "Target Support Files/Pods-VNWorkExtractor";
+			sourceTree = "<group>";
+		};
+		FC718E7FC02DE539F4F050F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CB949B41794926E652C959C /* Info.plist */,
+				179D1CC58B0E7E3E129322CA /* Pods-VNWorkExtractor-SQLite.swift.modulemap */,
+				3F613E448C3524619303DAA4 /* Pods-VNWorkExtractor-SQLite.swift.xcconfig */,
+				C2488B9210BBD4A42497BE1A /* Pods-VNWorkExtractor-SQLite.swift-Private.xcconfig */,
+				AC06BA8830EEA24AA8138CC4 /* Pods-VNWorkExtractor-SQLite.swift-dummy.m */,
+				ED9E0E0902C50FA7120BA91D /* Pods-VNWorkExtractor-SQLite.swift-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-VNWorkExtractor-SQLite.swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20F10646FC1452E5836CA0BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3BE790EE8AE20127C1F758 /* Pods-VNWorkExtractor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C9956090FD0AE226E3914 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83580AF7BF8650E946528B /* SQLite-Bridging.h in Headers */,
+				91AE85BF66A3A7533D952EB1 /* SQLite.h in Headers */,
+				3778443143BDDC2FA032C088 /* fts3_tokenizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		128AD1F5EDB7CC0105A409DC /* Pods-VNWorkExtractor-SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA31483EFE95078B7A0ECF5F /* Build configuration list for PBXNativeTarget "Pods-VNWorkExtractor-SQLite.swift" */;
+			buildPhases = (
+				CCA5841C5B7BB9BDB0BC1646 /* Sources */,
+				C495AD71D4D9BCF3ACC81975 /* Frameworks */,
+				591C9956090FD0AE226E3914 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VNWorkExtractor-SQLite.swift";
+			productName = "Pods-VNWorkExtractor-SQLite.swift";
+			productReference = A08D212A9970A71498898476 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E125980F2F3C1299B8ABF516 /* Pods-VNWorkExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BAF742E8E2BD77318A6F5D9 /* Build configuration list for PBXNativeTarget "Pods-VNWorkExtractor" */;
+			buildPhases = (
+				C2C0684268E027FC2DD65F29 /* Sources */,
+				16D3558ED85B6547574685F7 /* Frameworks */,
+				20F10646FC1452E5836CA0BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A2DCF87E91A9CE279AFF44 /* PBXTargetDependency */,
+			);
+			name = "Pods-VNWorkExtractor";
+			productName = "Pods-VNWorkExtractor";
+			productReference = D3DA28A347F3E180C6AC6D1B /* Pods_VNWorkExtractor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9039FD765D3A1C20BB514BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 061D23F0106ECD410EC1A0F3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08A0CF77F6221EB3DA3E548D;
+			productRefGroup = 648398021AFCC3F08463E340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E125980F2F3C1299B8ABF516 /* Pods-VNWorkExtractor */,
+				128AD1F5EDB7CC0105A409DC /* Pods-VNWorkExtractor-SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C0684268E027FC2DD65F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33562A433936105C672D5584 /* Pods-VNWorkExtractor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA5841C5B7BB9BDB0BC1646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21681E25DF30C9239702A20B /* Database.swift in Sources */,
+				783FA2F4D9FA6ED05A5CD8B7 /* Expression.swift in Sources */,
+				E33485AF9073369D48278FEB /* FTS.swift in Sources */,
+				7C4E2361214EE9EAE2FC2556 /* Functions.swift in Sources */,
+				8243B7119DFE971D588F98BC /* Pods-VNWorkExtractor-SQLite.swift-dummy.m in Sources */,
+				E46ECF819509C1D0EB6D08CA /* Query.swift in Sources */,
+				4B19DC4EEB849088A90DEBE4 /* RTree.swift in Sources */,
+				93CC3094A710BB0FE6471B58 /* SQLite-Bridging.m in Sources */,
+				5153856DAF4D37B47C33FA93 /* Schema.swift in Sources */,
+				1890BD622A49AB57F7CDDBDD /* Statement.swift in Sources */,
+				B75242D9B6B28C5B48397B7A /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A2DCF87E91A9CE279AFF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VNWorkExtractor-SQLite.swift";
+			target = 128AD1F5EDB7CC0105A409DC /* Pods-VNWorkExtractor-SQLite.swift */;
+			targetProxy = AB6F1A38B01283A584DBE50A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E763E68FA486180495C0F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2488B9210BBD4A42497BE1A /* Pods-VNWorkExtractor-SQLite.swift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VNWorkExtractor-SQLite.swift/Pods-VNWorkExtractor-SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-VNWorkExtractor-SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VNWorkExtractor-SQLite.swift/Pods-VNWorkExtractor-SQLite.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B4DD3AA1860BA73973A2BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53FFCB14CA16A0483FB539D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A11F95E9BD9DD669DF96517 /* Pods-VNWorkExtractor.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VNWorkExtractor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VNWorkExtractor/Pods-VNWorkExtractor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VNWorkExtractor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A74B2F8B0ED7DEEF92AADDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45272FF09BB2A7CDDD079CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11F110D4CF56DC5F1F01922 /* Pods-VNWorkExtractor.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VNWorkExtractor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VNWorkExtractor/Pods-VNWorkExtractor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VNWorkExtractor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD08D0CEA745994F1BD83859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2488B9210BBD4A42497BE1A /* Pods-VNWorkExtractor-SQLite.swift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VNWorkExtractor-SQLite.swift/Pods-VNWorkExtractor-SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-VNWorkExtractor-SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VNWorkExtractor-SQLite.swift/Pods-VNWorkExtractor-SQLite.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061D23F0106ECD410EC1A0F3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4DD3AA1860BA73973A2BCF /* Debug */,
+				7A74B2F8B0ED7DEEF92AADDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BAF742E8E2BD77318A6F5D9 /* Build configuration list for PBXNativeTarget "Pods-VNWorkExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45272FF09BB2A7CDDD079CD /* Debug */,
+				53FFCB14CA16A0483FB539D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA31483EFE95078B7A0ECF5F /* Build configuration list for PBXNativeTarget "Pods-VNWorkExtractor-SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08D0CEA745994F1BD83859 /* Debug */,
+				0E763E68FA486180495C0F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9039FD765D3A1C20BB514BF /* Project object */;
+}

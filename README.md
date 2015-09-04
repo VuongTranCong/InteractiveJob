@@ -10,3 +10,5 @@ In this GitHub
 - assets: Vuforia’s assets.
 - build: Vuforia’s build.
 - licenses: Vuforia’s licenses.
+
+AppStore link: https://itunes.apple.com/us/app/interactive-jobs-search-jobs/id1016741079?ls=1&mt=8
